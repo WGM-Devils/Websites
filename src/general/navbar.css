@@ -58,6 +58,9 @@
   margin: auto;
   height: 80px;
 }
+.navbar-account:hover {
+  cursor: pointer;
+}
 .navbar-account-icon {
   width: 60px;
   margin: auto 5px auto 10px;
