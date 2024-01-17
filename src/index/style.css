@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  flex-direction: row;
+}
+.feed {
+  width: 90%;
+  height: 100vh;
+  display: flex;
+}
+.feed-top {
+  width: 100%;
+  position: fixed;
+  height: 60px;
+  top: 0;
+  background-color: grey;
+  display: flex;
+}
+.feed-top-title {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: 80%;
+  margin: auto -50px auto 10px;
+}
+.feed-top-button {
+  height: 60px;
+  margin: auto 10px;
+  justify-self: flex-end;
+}
