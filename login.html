@@ -14,13 +14,8 @@
         <h1 class="login-title">Login</h1>
         <form method="post">
           <div class="input-container">
-            <label for="username">Username</label>
-            <input
-              type="text"
-              name="username"
-              id="username"
-              placeholder="Username"
-            />
+            <label for="email">E-Mail</label>
+            <input type="email" name="email" id="email" placeholder="Email" />
           </div>
           <div class="input-container">
             <label for="password">Passwort</label>
@@ -32,7 +27,7 @@
             />
           </div>
           <div class="input-container">
-            <input type="submit" value="Login" />
+            <input onclick="submitLogin()" type="button" value="Login" />
           </div>
         </form>
       </div>
